@@ -13,6 +13,7 @@ public class AppTest {
         assertArrayEquals(new int[]{23, 97}, input);
     }
 
+    @Test
     void testSwap_invalid() {
 
           int[] input1 = null;
